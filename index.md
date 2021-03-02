@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+## COVID-19 Vaccination Forecasts
 
-You can use the [editor on GitHub](https://github.com/scottleibrand/covid-forecasts/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The model embedded below [(and here)](https://my.causal.app/models/28192) uses the latest data on US COVID-19 vaccine distribution and administration and generates projections for total vaccinations, vaccine availability, and vaccine immunity.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+* The model’s assumptions are shown at the top (with descriptions), and you can edit them and it will immediately redraw the graphs to reflect the new assumptions.
+* The model runs its calculations thousands of times, randomly selecting each input from the range provided.
+* The results are presented as 90% uncertainty intervals, meaning that 90% of those thousands of runs fell within the shaded areas.
+* The median outcome is shown as a central line.
 
-### Markdown
+The model assumes that:
+* vaccine doses will be delivered by the manufacturers at the specified weekly rates for each month as they ramp up production.
+* vaccination sites will administer the vaccine after a variable delay of days to weeks. 
+* second doses will be given, on average, 3 to 5 weeks after the first dose.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Additional details:
+* It models vaccine demand based on the "Vaccine hesitancy" and "Days to flat vax demand" assumptions: those determine how many people eventually get vaccinated, and how long it takes demand to tail off.
+* It currently does not model any future EUAs or approvals beyond J&J’s. 
+* Uncertainty about whether existing authorizations will be expanded to allow those <16 to be vaccinated is only indirectly represented in the wide range of assumptions for Vaccine hesitancy. It doesn’t yet directly model what will happen if/when a vaccine is authorized for children.
 
-```markdown
-Syntax highlighted code block
+The outputs from this model are used in [this model forecasting COVID-19 infections, cases, and deaths](https://my.causal.app/models/27282) based on this model's estimates of vaccine rollout, estimates of B.1.1.7 prevalence from Helix, and various editable assumptions.
 
-# Header 1
-## Header 2
-### Header 3
+Source data comes from [this Google sheet](https://docs.google.com/spreadsheets/d/11lgBxcW5jmxGV-osoFhnlAxgW6DzqZXzKdYuR43RbgA/edit)
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/scottleibrand/covid-forecasts/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+{% include vaccineModel.html %}
