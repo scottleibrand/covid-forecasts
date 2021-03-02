@@ -1,6 +1,6 @@
 ## COVID-19 Infections, Cases, and Deaths Forecasts
 
-This model shows the latest 7d average data on US COVID-19 cases and deaths, uses data on vaccinations from [another linked model](vaccine.html), and shows projections for future cases, deaths, and estimates of cases caused by B.1.1.7 vs. pre-existing variants.
+The model below [(and here)](https://my.causal.app/models/27282) shows the latest 7d average data on US COVID-19 cases and deaths, uses data on vaccinations from [another linked model](vaccine.html), and shows projections for future cases, deaths, and estimates of cases caused by B.1.1.7 vs. pre-existing variants.
 
 * The model’s assumptions are shown at the top (with descriptions), and you can edit them and it will immediately redraw the graphs to reflect the new assumptions.
 * The model runs its calculations thousands of times, randomly selecting each input from the range provided.
