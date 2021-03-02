@@ -17,7 +17,7 @@ Additional details:
 * It currently does not model any future EUAs or approvals beyond J&J’s. 
 * Uncertainty about whether existing authorizations will be expanded to allow those <16 to be vaccinated is only indirectly represented in the wide range of assumptions for Vaccine hesitancy. It doesn’t yet directly model what will happen if/when a vaccine is authorized for children.
 
-The outputs from this model are used in [this model forecasting COVID-19 infections, cases, and deaths](https://my.causal.app/models/27282) based on this model's estimates of vaccine rollout, estimates of B.1.1.7 prevalence from Helix, and various editable assumptions.
+The outputs from this model are used in [this model forecasting COVID-19 infections, cases, and deaths](cases.html) based on this model's estimates of vaccine rollout, estimates of B.1.1.7 prevalence from Helix, and various editable assumptions.
 
 Source data comes from [this Google sheet](https://docs.google.com/spreadsheets/d/11lgBxcW5jmxGV-osoFhnlAxgW6DzqZXzKdYuR43RbgA/edit)
 
