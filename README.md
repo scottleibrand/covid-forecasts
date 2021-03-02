@@ -1,5 +1,4 @@
-# covid-forecasts
-Website for COVID-19 vaccination, infections, cases, and deaths forecasts
+# COVID-19 vaccination, infections, cases, and deaths forecasts
 
 [US COVID-19 Infections, Cases, and Deaths Forecasts Forecasts](https://scottleibrand.github.io/covid-forecasts/cases.html)
 
