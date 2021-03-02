@@ -15,6 +15,6 @@ Additional details:
 
 Please treat this model as a representation of how things might play out, and remember that the confidence intervals are really wide for a reason.
 
-Source data comes from [this Google sheet](https://docs.google.com/spreadsheets/d/11lgBxcW5jmxGV-osoFhnlAxgW6DzqZXzKdYuR43RbgA/edit).
+Source data comes from [Youyang Gu's covid19-projections.com](covid19-projections.com), [Helix](https://github.com/myhelix/helix-covid19db), and [NYTimes](https://github.com/nytimes/covid-19-data) via [this Google sheet](https://docs.google.com/spreadsheets/d/11lgBxcW5jmxGV-osoFhnlAxgW6DzqZXzKdYuR43RbgA/edit).
 
 {% include casesModel.html %}
