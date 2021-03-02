@@ -19,6 +19,6 @@ Additional details:
 
 The outputs from this model are used in [this model forecasting COVID-19 infections, cases, and deaths](cases.html) based on this model's estimates of vaccine rollout, estimates of B.1.1.7 prevalence from Helix, and various editable assumptions.
 
-Source data comes from [Youyang Gu's covid19-projections.com](covid19-projections.com), [Helix](https://github.com/myhelix/helix-covid19db), and [NYTimes](https://github.com/nytimes/covid-19-data) via [this Google sheet](https://docs.google.com/spreadsheets/d/11lgBxcW5jmxGV-osoFhnlAxgW6DzqZXzKdYuR43RbgA/edit).
+Source data comes from [Youyang Gu's covid19-projections.com](https://covid19-projections.com), [Helix](https://github.com/myhelix/helix-covid19db), and [NYTimes](https://github.com/nytimes/covid-19-data) via [this Google sheet](https://docs.google.com/spreadsheets/d/11lgBxcW5jmxGV-osoFhnlAxgW6DzqZXzKdYuR43RbgA/edit).
 
 {% include vaccineModel.html %}
