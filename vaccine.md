@@ -6,6 +6,7 @@ The model embedded below [(and here)](https://my.causal.app/models/28192) uses t
 * The model runs its calculations thousands of times, randomly selecting each input from the range provided.
 * The results are presented as 90% uncertainty intervals, meaning that 90% of those thousands of runs fell within the shaded areas.
 * The median outcome is shown as a central line.
+* Two scenarios are shown by default. The one labeled "Default" uses the assumptions I consider most likely, which you can edit. The one labeled "Market Odds" uses the most plausible assumptions I could identify that are consistent with Polymarket's odds [on giving 100M first doses before 4/1](https://polymarket.com/market/will-100-million-people-have-received-a-dose-of-an-approved-covid-19-vaccine-in-the-us-by-april-1-2021).
 
 The model assumes that:
 * vaccine doses will be delivered by the manufacturers at the specified weekly rates for each month as they ramp up production.
